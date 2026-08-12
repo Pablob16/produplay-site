@@ -284,8 +284,8 @@ footer .logo-img{height:52px}
 
 /* ===================== LOGOS DO CURSO + ESCASSEZ ===================== */
 .ea-brands{margin-top:2px}
-.brand-logos{display:flex;gap:14px;margin-top:10px}
-.brand-logos img{height:78px;width:78px;object-fit:contain;background:linear-gradient(135deg,#ffffff,#dae2f2);border:1px solid rgba(255,255,255,.55);border-radius:16px;padding:10px;box-shadow:0 10px 26px rgba(0,0,0,.28)}
+.brand-logos{display:flex;align-items:center;gap:18px;margin-top:10px}
+.brand-logos img{height:86px;width:auto;filter:drop-shadow(0 8px 18px rgba(0,0,0,.35))}
 .combo-price .save{margin-bottom:8px}
 .combo-price .scarcity{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--vermelho);padding:5px 12px;border-radius:999px;margin-bottom:14px}
 
