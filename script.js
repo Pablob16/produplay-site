@@ -24,8 +24,10 @@
   if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
-    }, { threshold: 0.12 });
+    }, { threshold: 0 });
     itens.forEach(function (el) { io.observe(el); });
+    /* Rede de segurança: blocos altos nunca devem ficar invisíveis */
+    setTimeout(function () { itens.forEach(function (el) { el.classList.add('in'); }); }, 2500);
   } else {
     itens.forEach(function (el) { el.classList.add('in'); });
   }

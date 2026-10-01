@@ -1,0 +1,2 @@
+Coloque aqui as fotos dos textos, em JPG, com os nomes listados em fotos-sugeridas.md.
+A foto aparece no texto sozinha quando o arquivo existir. Sem o arquivo, o espaço fica oculto.
